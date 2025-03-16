@@ -1,0 +1,23 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ghostwriter'
+
+
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+    url='/home/'
+  [[menus.main]]
+    name = 'Products'
+    pageRef = '/products'
+    weight = 20
+    url='/products/'
+  [[menus.main]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 30
+    url='/services/'
